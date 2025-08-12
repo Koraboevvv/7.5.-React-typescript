@@ -42,7 +42,7 @@ const View: FC<Props> = ({ data }) => {
                     type="button"
                     className="px-3 py-1 text-sm rounded-md bg-white border border-gray-200 hover:bg-gray-50"
                   >
-                    Details
+                    Delete
                   </button>
                 </div>
               </article>

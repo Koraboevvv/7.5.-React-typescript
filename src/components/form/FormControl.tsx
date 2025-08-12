@@ -49,7 +49,7 @@ const FormControl: FC<Props> = ({ setData }) => {
       id: Date.now(),
     };
     setData(prev => [...prev, newBlog]);
-    // setFormData(initialState);
+    setFormData(initialState);
   };
 
   return (
